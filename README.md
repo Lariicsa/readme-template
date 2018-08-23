@@ -12,7 +12,6 @@ Aplicación cliente para el sistema de gestión administrativo de ASC.
 # Instalar dependencias
 npm install
 
-``` bash
 # Iniciar servidor de desarrollo
 npm run dev
 
