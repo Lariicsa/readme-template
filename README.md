@@ -21,10 +21,30 @@ npm run build
 ```
 ## El proyecto
 
+```
+    ├── src/
+        ├── api
+        ├── assets
+        ├── components
+        ├── config
+        ├── router
+        ├── scss
+        ├── helpers
+        ├── mediator
+        ├── services
+        ├── store
+        .
+        .
+```
+
 ### Las carpetas donde se encuentran la información de los componentes son:
 
-[assets](http://#).
+[assets].(#assets)
 
-[components](#).
+[components].(#components)
 
-[router](#).
+[scss].(#scss)
+
+[router].
+
+
