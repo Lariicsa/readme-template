@@ -69,4 +69,5 @@ Para la creción de nuevos archivos de vistas se debe usar la nomenclatura *Pasc
 
 ### UI
 
-En esta carpeta se encuentran los archivo de los componentes que se integran en cada vista
+En esta carpeta se encuentran los archivos de los componentes que se integran en cada vista. Los componentes que pueden llegar a confundirse con elementos nativos, llevan el prefijo `asc-` + `nombre-del-componente`,
+Los componentes existentes son los siguientes:
