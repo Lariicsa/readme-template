@@ -39,7 +39,7 @@ npm run build
         .
 ```
 
-### Las carpetas donde se encuentran la información de los componentes son:
+Las carpetas donde se encuentran la información de los componentes son:
 
 - [Assets](#assets)
 
@@ -49,25 +49,25 @@ npm run build
 
 - [Router](#router)
 
-## Assets
+## Assets 📁
 
 En esta carpeta se alojan las imágenes que se usan en el proyecto
 
-## Components
+## Components 📁
 
 Esta carpeta se divide en 2 partes **Routes** y **UI**
 
-### Routes
+### Routes 📁
 
-Aquí se encuentra cada una de las vistas del proyecto. Ej:
+En esta carpeta se encuentra cada una de las vistas del proyecto. Ej:
 
 ```bash
-Login.vue
+Login.vue 📄
 ```
 
 Para la creción de nuevos archivos de vistas se debe usar la nomenclatura *PascalCase* con extensión de archivo *.vue*
 
-### UI
+### UI 📁
 
 En esta carpeta se encuentran los archivos de los componentes que se integran en cada vista. Los componentes que pueden llegar a confundirse con elementos nativos, llevan el prefijo `asc-` + `nombre-del-componente`,
 Los componentes existentes son los siguientes:
@@ -89,3 +89,45 @@ Los componentes existentes son los siguientes:
 * Tag
 * ToggleButton
 
+## SCSS 📁
+
+En esta carpeta se encuentran los archivos de los estilos globales que comparten los componentes o el ambiente general (*layout*). Los cuales son:
+```
+├── scss/
+        ├── _vars.scss
+        ├── global.scss
+        ├── normalize.scss
+ ```
+ 
+   ### _vars📄
+ 
+ En este archivo se encuentran las variables del lauyout general y de los componentes. Por ej:
+  ```scss
+$mint: #eef9f8;
+$mustard: #f5a623;
+$snow: #ffffff;
+
+```
+Cualquier modificación general que se desee hacer, se debe agregar en este archivo
+
+   ### global.scss📄
+ 
+ En este archivo se encuentran las reglas generales del layout y reglas que comparten algunos componentes. Por ej:
+  ```scss
+.space {
+	background-color: $snow;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+	height: 100%;
+}
+```
+Cualquier modificación general que se desee hacer, se debe agregar en este archivo.
+
+### normalize.scss📄
+
+Este archivo es el *reset* de los elementos web.
+[normalize.css v7.0.0 ](http://github.com/necolas/normalize.css)
+ 
