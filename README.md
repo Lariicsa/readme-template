@@ -71,3 +71,21 @@ Para la creción de nuevos archivos de vistas se debe usar la nomenclatura *Pasc
 
 En esta carpeta se encuentran los archivos de los componentes que se integran en cada vista. Los componentes que pueden llegar a confundirse con elementos nativos, llevan el prefijo `asc-` + `nombre-del-componente`,
 Los componentes existentes son los siguientes:
+
+* Alert
+* Button
+* Checkbox
+* DropDown
+* Footer
+* Header
+* InputField
+* InnerTable
+* Label
+* Paginator
+* RadioButton
+* Spinner
+* Switch
+* Table
+* Tag
+* ToggleButton
+
