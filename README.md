@@ -66,6 +66,7 @@ Para la creción de nuevos archivos de vistas se debe usar la nomenclatura *Pasc
 **UI-TESTS**
 
 Es un archivo que se encuentra dentro de `Routes` tiene contenidos la muestra de los componentes existentes, también, se pueden hacer pruebas dentro de este archivo.
+Dentro de tu proyecto local se encuentra en [localhost/ui-tests](#http://localhost/ui-test)
 
 ### UI 📁
 
