@@ -19,7 +19,7 @@ npm run dev
 # compilar para producción
 npm run build
 ```
-#y El proyecto
+# El proyecto
 
 ``` 
     .
