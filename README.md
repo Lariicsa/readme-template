@@ -5,6 +5,8 @@ a few readme templates
 
 Aplicación cliente para el sistema de gestión administrativo de ASC.
 
+## Instalación
+
 Después de la clonación del proyecto
 
 **Correr en BASH**  ( *debes tener instalado [NPM](https://www.npmjs.com/) y [Node](https://nodejs.org)* )
@@ -51,7 +53,10 @@ Las carpetas donde se encuentran la información de los componentes son:
 
 ## Assets 📁
 
-En esta carpeta se alojan las imágenes que se usan en el proyecto
+En esta carpeta se alojan las imágenes que se usan en el proyecto, estas son las imágenes actuales que se encuentran en uso:
+
+* logo.svg
+* arrows.svg
 
 ## Components 📁
 
@@ -73,7 +78,11 @@ Dentro de tu proyecto local se encuentra en [localhost/ui-tests](#http://localho
 En esta carpeta se encuentran los archivos de los componentes que se integran en cada vista. Los componentes que pueden llegar a confundirse con elementos nativos, llevan el prefijo `asc-` + `nombre-del-componente`,
 Los componentes existentes son los siguientes:
 
-* Alert
+* Alert 
+``` 
+html 
+<asc-alert></asc-alert> 
+```
 * Button
 * Checkbox
 * DropDown
