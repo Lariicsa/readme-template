@@ -41,7 +41,7 @@ npm run build
 
 Las carpetas donde se encuentran la información de los componentes son:
 
-- [Assets](#Assets)
+- [Assets](##Assets)
 
 - [Components](#Components)
 
